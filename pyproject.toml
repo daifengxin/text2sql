@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text2sql-assistant"
+version = "0.1.0"
+authors = [
+  { name="fengx", email="fengx@bu.edu" }, 
+]
+description = "An interactive database assistant that loads CSVs and answers natural language queries using AI."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Database",
+    "Topic :: Utilities",
+    "Environment :: Console",
+]
+dependencies = [
+    "pandas",
+    "openai",
+    "python-dotenv",
+]
+
+[project.urls]
+Homepage = "https://github.com/daifengxin/text2sql"
+Issues = "https://github.com/daifengxin/text2sql/issues"
+
+[project.scripts]
+text2sql = "text2sql_assistant.main:main" 

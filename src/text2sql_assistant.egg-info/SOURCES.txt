@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/text2sql_assistant/__init__.py
+src/text2sql_assistant/main.py
+src/text2sql_assistant.egg-info/PKG-INFO
+src/text2sql_assistant.egg-info/SOURCES.txt
+src/text2sql_assistant.egg-info/dependency_links.txt
+src/text2sql_assistant.egg-info/entry_points.txt
+src/text2sql_assistant.egg-info/requires.txt
+src/text2sql_assistant.egg-info/top_level.txt

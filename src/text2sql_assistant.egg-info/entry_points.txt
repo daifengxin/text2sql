@@ -1,0 +1,2 @@
+[console_scripts]
+text2sql = text2sql_assistant.main:main

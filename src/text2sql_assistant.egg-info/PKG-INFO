@@ -1,3 +1,24 @@
+Metadata-Version: 2.4
+Name: text2sql-assistant
+Version: 0.1.0
+Summary: An interactive database assistant that loads CSVs and answers natural language queries using AI.
+Author-email: fengx <fengx@bu.edu>
+Project-URL: Homepage, https://github.com/daifengxin/text2sql
+Project-URL: Issues, https://github.com/daifengxin/text2sql/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+Dynamic: license-file
+
 # Text2SQL Assistant
 
 An interactive database assistant that loads CSV files into an SQLite database 
